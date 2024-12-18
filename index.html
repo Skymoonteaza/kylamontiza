@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project Kyla</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="links-container">
+                <li class="link-item"><a href="#about-me" id="about-me-link">About Me</a></li>
+                <li class="link-item"><a href="#hobbies">Hobbies</a></li>
+                <li class="link-item"><a href="#gallery">Gallery</a></li>
+                <li class="link-item"><a href="#goals">Goals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1 class="hero-section-title">Kyla Hazel Montiza</h1>
+            <img src="img/down-arrow.png" class="scroll-down-icon" alt="scroll down">
+        </section>
+
+        <section class="explore-section" id="gallery">
+            <h1 class="section-title">Photo Gallery</h1>
+            <div class="gallery">
+                <img src="1pic.jpg" alt="1pic" class="gallery-image">
+                <img src="2pic.jpg" alt="2pic" class="gallery-image">
+                <img src="3pic.jpg" alt="3pic" class="gallery-image">
+                <img src="4pic.jpg" alt="4pic" class="gallery-image">
+                <img src="5pic.jpg" alt="5pic" class="gallery-image">
+                <img src="6pic.jpg" alt="6pic" class="gallery-image">
+                <img src="7pic.jpg" alt="1pic" class="gallery-image">
+                <img src="8pic.jpg" alt="2pic" class="gallery-image">
+                <img src="9pic.jpg" alt="3pic" class="gallery-image">
+                <img src="10pic.jpg" alt="4pic" class="gallery-image">
+                <img src="11pic.jpg" alt="5pic" class="gallery-image">
+                
+            </div>
+        </section>
+    </main>
+
+    <section class="travel-form-section">
+        <h2 class="section-title">Want to Travel with Me?</h2>
+        <form id="travel-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+            <button type="button" id="contact-btn" class="contact-btn">Contact</button>
+            <span id="phone-number" class="phone-number"></span>
+        </form>
+        <div id="contact-popup" class="popup">
+            <div class="popup-content">
+                <span class="close-popup">&times;</span>
+                <div class="popup-body">
+                    <h2>Can't reach me by email?</h2>
+                    <p>Contact my number! <strong>09817937034</strong></p>
+                </div>
+            </div>
+    </section>
+</main>
+
+    
+    <div id="about-me-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <div class="popup-body">
+                <img src="6pic.jpg" alt="Kyla Hazel Montiza" class="about-me-image">
+                <div class="about-me-description">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Kyla Hazel Montiza from Tagbilaran City. I am 23 years old and a 3rd-year IT student. I made this website for my final project. It's not easy, but with the help of our energetic instructor, Ma'am Gabo, I was able to make it. It's simple, but I really did my best for this.!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hobbies-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <div class="popup-body">
+                <img src="1pic.jpg" alt="Kyla Hazel Montiza Hobbies" class="about-me-image">
+                <div class="about-me-description">
+                    <h2>My Hobbies</h2>
+                    <ul>
+                        <li>Eating</li>
+                        <li>Doing Tiktok</li>
+                        <li>Dancing</li>
+                        <li>Travelling</li>
+                        <li>Doing food reviews</li>
+                        <li>Reading</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div id="goals-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <div class="popup-body">
+                <img src="3pic.jpg" alt="Kyla Hazel Montiza Goals" class="about-me-image">
+                <div class="about-me-description">
+                    <h2>Goals in Life</h2>
+                    <p>My goals in life are to fulfill my family's dreams, to graduate, and to travel the world. It's quite hard, but I hope to achieve it someday. I have failed many times, but I hope I learn and improve. I will pass this subject, 'Manifesting Pasar sa WebDev.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div id="gallery-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <div class="popup-body">
+                <img src="6pic.jpg" alt="Gallery" class="about-me-image">
+                <div class="about-me-description">
+                    <h2>Gallery</h2>
+                    <div class="gallery">
+                        c:\Users\Ian\Downloads\467855922_587345737274630_2438440397099229492_n.jpg c:\Users\Ian\Downloads\462560214_386620417809884_5101466712958536342_n.jpg c:\Users\Ian\Downloads\462551731_1117300626637682_4718626711201394192_n.jpg c:\Users\Ian\Downloads\462569685_1131290195076472_6134662040557771603_n.jpg c:\Users\Ian\Downloads\462539440_2307463842952122_1334784428711750086_n.jpg
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Kyla Hazel Montiza. All rights reserved.</p>
+            <p>For more travel updates, follow <a href="https://www.facebook.com/kylamae.monteza?mibextid=ZbWKwL">here</a></p>
+            <p>Send me a message: <a href="mailto:uys11631@gmail.com">uys11631@gmail.com</a></p>
+            
+        </div>
+    </footer>
+</body>
+</html>
